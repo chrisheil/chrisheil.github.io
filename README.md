@@ -2,6 +2,18 @@
 
 This template should help get you started developing with Vue 3 in Vite.
 
+## Deploy Steps
+
+This site is hosted in GitHub Pages in the `gh-pages` branch. To deploy updated version of the site, run the following steps
+
+Build output to the `dist` folder: `npm run build`
+
+Commit changes
+
+Publish results to GH: `git subtree push --prefix dist origin gh-pages`
+
+Source of this strategy: https://learnvue.co/tutorials/deploy-vue-to-github-pages#tip--handling-vue-router-with-a-custom-404-page
+
 ## Recommended IDE Setup
 
 [VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur) + [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin).
